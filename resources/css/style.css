@@ -1,0 +1,141 @@
+/***************GENERAL***************/
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  font-size: 100%;
+}
+
+/***************SITE HEADER***************/
+
+.site-header {
+  background: #333333;
+  height: 5.625rem;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+nav {
+  padding: 2.25rem 0 0 2.5rem;
+}
+
+li {
+  display: inline-block;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: -0.0312rem;
+  width: 80px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/***************MAIN BANNER***************/
+
+.hero {
+  background-image: url("http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.jpg");
+  background-position-y: -0.625rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 51.875rem;
+  max-width: 100%;
+  position: relative;
+  text-align: center;
+  top: 5.625rem;
+  width: 100vw;
+}
+
+.hero header {
+  margin-bottom: 3.9375rem;
+  padding-top: 4.25rem;
+}
+
+h1 {
+  color: #333333;
+  font-size: 4.5rem;
+  font-weight: 500;
+}
+
+.hero button {
+  background: #333333;
+  border: none;
+  color: white;
+  font-size: 1.25rem;
+  letter-spacing: 0.0625rem;
+  padding: 0.9375rem 2.5rem;
+}
+
+/***************FEATURES***************/
+
+.features {
+  margin: 9.375rem 0;
+  text-align: center;
+}
+
+div {
+  display: inline-block;
+  height: 12.5rem;
+  text-align: center;
+  width: 12.5rem;
+}
+
+h2 {
+  font-size: 1.4375rem;
+  font-weight: 600;
+  margin-bottom: 1.875rem;
+}
+
+img {
+  margin-bottom: 1.88rem;
+  width: 1.88rem;
+}
+
+p {
+  font-size: 0.9375rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0 auto 0.625rem;
+  width: 10.25rem;
+}
+
+.features button {
+  background: white;
+  border: 2px solid #333333;
+  color: #333333;
+  font-weight: 600;
+  padding: 0.5rem 0.9375rem;
+}
+
+.code-img {
+  width: 3.125rem;
+}
+
+footer {
+  background: #333333;
+  bottom: 0;
+  color: white;
+  font-size: 0.8125rem;
+  height: 5.9375rem;
+  padding-top: 2.9375rem;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+/***************OTHER***************/
+
+h1,
+button,
+h2 {
+  text-transform: uppercase;
+}
